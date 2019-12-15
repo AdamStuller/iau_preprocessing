@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='iau_preprocessing',
-    version='0.0.2',
+    version='0.0.4',
     description='pip installable preprocessing transformers',
     license='MIT',
     packages=['iau_preprocessing'],
