@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import numpy as np
 
-class personalInfoParser(BaseEstimator):
+class PersonalInfoParser(BaseEstimator):
     def __parse_personal_info(self, x):
         if isinstance(x, str):
             return map(lambda x: np.nan if x.strip() == '?' else x.strip(), re.sub(r"(\r(\r)?\n)|(--)", "|", x).split("|"))
