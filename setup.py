@@ -1,13 +1,13 @@
 from setuptools import setup
 
 setup(
-    name='hellostackoverflow',
+    name='iau_preprocessing',
     version='0.0.1',
-    description='a pip-installable package example',
+    description='pip installable preprocessing transformers',
     license='MIT',
-    packages=['hellostackoverflow'],
-    author='Benjamin Gerfelder',
-    author_email='benjamin.gerfelder@gmail.com',
-    keywords=['example'],
-    url='https://github.com/bgse/hellostackoverflow'
+    packages=['iau_preprocessing'],
+    author='Adam Štuller',
+    author_email='adam.stuller@protonmail.com',
+    keywords=['iau', 'machine learning', 'preprocessing'],
+    url='https://github.com/AdamStuller/iau_preprocessing.git'
 )
